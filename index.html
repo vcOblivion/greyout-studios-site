@@ -14,53 +14,62 @@
   <meta property="og:url" content="https://greyoutstudios.site/">
   <meta name="theme-color" content="#141516">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261008">
+  <link rel="stylesheet" href="styles.css?v=direction-03">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page">
-    <header class="masthead" aria-label="Greyout Studios">
-      <span class="mark" aria-hidden="true"><span></span><span></span><span></span></span>
-      <span class="masthead-name">Greyout Studios</span>
-      <span class="masthead-location">Istanbul <span aria-hidden="true">/</span> Est. 2026</span>
-    </header>
-    <main id="main" tabindex="-1">
-      <section class="hero" aria-labelledby="studio-name">
-        <h1 id="studio-name"><span class="wordmark">GREYOUT</span><span class="studios">STUDIOS</span></h1>
-        <div class="introduction">
-          <p class="location">Independent game development studio based in Istanbul.</p>
-          <p class="description">Currently developing an unannounced open-world survival project in Unreal Engine 5.</p>
-        </div>
-      </section>
-      <section class="section project" aria-labelledby="project-heading">
-        <div class="project-index">
-          <h2 class="section-label" id="project-heading"><span class="section-number">01 /</span> Current project</h2>
-          <p class="project-meta">Open-world survival / Unreal Engine 5</p>
-        </div>
-        <div class="section-content">
-          <p class="project-name">Unannounced</p>
-          <p class="project-status"><span class="status-tag">Pre-alpha</span><span class="status-detail">Active development</span></p>
-          <p class="project-description">An open-world survival game focused on systemic gameplay, procedural world generation, and persistent environments.</p>
-        </div>
-      </section>
-      <section class="section studio" aria-labelledby="studio-heading">
-        <h2 class="section-label" id="studio-heading"><span class="section-number">02 /</span> Studio</h2>
-        <div class="section-content studio-content">
-          <p class="studio-description">Greyout Studios is an independent game development studio founded in 2026.</p>
-          <div class="founder">
-            <p class="founder-name">Ata Güner</p>
-            <p class="founder-role">Founder &amp; Lead Developer</p>
+  <header class="site-header">
+    <nav class="capsule" aria-label="Main navigation">
+      <a class="nav-brand" href="#home" aria-label="Greyout Studios home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>Greyout</a>
+      <div class="nav-links"><a href="#project">Project</a><a href="#studio">Studio</a><a href="#contact">Contact<span aria-hidden="true"> ↗</span></a></div>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-atmosphere" aria-hidden="true">
+        <div class="cells"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <span class="light-point point-one"></span><span class="light-point point-two"></span><span class="light-point point-three"></span>
+        <span class="registration registration-one"></span><span class="registration registration-two"></span>
+      </div>
+      <div class="hero-content">
+        <p class="hero-brand">Greyout <span>Studios</span></p>
+        <h1 id="hero-heading">Building <span>systemic worlds.</span></h1>
+        <div class="hero-copy"><p>Independent game development studio based in Istanbul.</p><p>Developing an unannounced open-world survival project in Unreal Engine 5.</p></div>
+        <a class="button" href="#project">Current project <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-foot meta"><span>Istanbul <span class="separator">/</span> Est. 2026</span><span class="development"><span class="status-dot" aria-hidden="true"></span>Active development <span class="separator">/</span> Pre-alpha</span></div>
+    </section>
+    <div class="page-content">
+      <section class="project" id="project" aria-labelledby="project-heading">
+        <div class="section-top"><p class="section-label">01 / Current project</p><span class="meta">Unreal Engine 5</span></div>
+        <div class="project-panel">
+          <div class="panel-top meta"><span>Project 01</span><span class="project-status"><span class="status-dot" aria-hidden="true"></span>Pre-alpha</span></div>
+          <h2 id="project-heading">Unannounced<span class="title-rule" aria-hidden="true"></span></h2>
+          <div class="project-bottom">
+            <p class="project-description">An open-world survival game focused on systemic gameplay, procedural world generation, and persistent environments.</p>
+            <dl class="project-details"><div><dt>Genre</dt><dd>Open-world survival</dd></div><div><dt>Engine</dt><dd>Unreal Engine 5</dd></div><div><dt>Status</dt><dd>Active development</dd></div></dl>
           </div>
+          <span class="panel-corner" aria-hidden="true"></span>
+        </div>
+        <ol class="pillars" aria-label="Project pillars">
+          <li><span class="pillar-number" aria-hidden="true">01</span><h3>Systemic gameplay</h3><span class="pillar-line" aria-hidden="true"></span></li>
+          <li><span class="pillar-number" aria-hidden="true">02</span><h3>Procedural worlds</h3><span class="pillar-line" aria-hidden="true"></span></li>
+          <li><span class="pillar-number" aria-hidden="true">03</span><h3>Persistent environments</h3><span class="pillar-line" aria-hidden="true"></span></li>
+        </ol>
+      </section>
+      <section class="studio" id="studio" aria-labelledby="studio-heading">
+        <h2 class="section-label" id="studio-heading">02 / Studio</h2>
+        <div class="studio-layout">
+          <p class="studio-description">Greyout Studios is an independent game development studio founded in 2026.</p>
+          <div class="founder"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><p class="founder-name">Ata Güner</p><p class="meta">Founder &amp; Lead Developer</p><p class="founder-location">Istanbul</p></div>
         </div>
       </section>
-      <section class="section contact" aria-labelledby="contact-heading">
-        <h2 class="section-label" id="contact-heading"><span class="section-number">03 /</span> Contact</h2>
-        <div class="section-content">
-          <a class="email" href="mailto:founder@greyoutstudios.site">founder@greyoutstudios.site<span class="arrow" aria-hidden="true">↗</span></a>
-        </div>
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <p class="section-label">03 / Contact</p><h2 id="contact-heading">Get in touch.</h2>
+        <a class="email" href="mailto:founder@greyoutstudios.site">founder@greyoutstudios.site<span aria-hidden="true">↗</span></a>
       </section>
-    </main>
-    <footer><small>© 2026 Greyout Studios</small><span class="footer-mark" aria-hidden="true"></span></footer>
-  </div>
+      <footer><a class="footer-brand" href="#home">Greyout Studios</a><small>© 2026 Greyout Studios</small><span class="footer-note meta">Independent / Istanbul</span></footer>
+    </div>
+  </main>
 </body>
 </html>
